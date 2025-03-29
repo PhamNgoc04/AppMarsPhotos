@@ -88,6 +88,16 @@ dependencies {
     debugImplementation("androidx.compose.ui:ui-tooling")
     debugImplementation("androidx.compose.ui:ui-test-manifest")
 
+    //Navigation
+    implementation("androidx.navigation:navigation-compose:2.7.7")
+    implementation("androidx.navigation:navigation-dynamic-features-fragment:2.7.7")
+    implementation("androidx.navigation:navigation-fragment-ktx:2.7.7")
+
+    implementation ("androidx.lifecycle:lifecycle-runtime-compose:2.8.0")
+
+    implementation ("androidx.compose.ui:ui-text-google-fonts")
+
+
     // ✅ AndroidX & Jetpack Compose dependencies
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.lifecycle.runtime.ktx)
